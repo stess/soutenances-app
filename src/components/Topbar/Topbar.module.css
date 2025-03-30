@@ -1,0 +1,91 @@
+/* src/components/Topbar/Topbar.module.css */
+
+.topbar {
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border-color);
+  font-family: 'Inter', sans-serif;
+  box-shadow: var(--shadow-soft);
+}
+
+/* LEFT SIDE: Logo + Menu */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+
+.logoImg {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #d94a6a;
+}
+
+/* RIGHT SIDE: Search + Avatar */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 8px;
+  font-size: 13px;
+  width: 100px;
+}
+
+.searchIcon {
+  color: #888;
+  font-size: 13px;
+}
+
+.avatar img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+}

@@ -1,0 +1,31 @@
+/* src/components/SidebarRight/RevenueBox.module.css */
+
+.card {
+    border: 6px solid #d94a6a;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .label {
+    font-size: 13px;
+    color: var(--text-light);
+  }
+  
+  .amount {
+    font-size: 22px;
+    font-weight: 700;
+    color: #d94a6a;
+  }
+  

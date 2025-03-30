@@ -1,0 +1,47 @@
+/* src/components/SidebarLeft/TodoAlerts.module.css */
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .iconContainer {
+    background-color: #fde3e8;
+    padding: 14px;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    color: #d94a6a;
+    font-size: 20px;
+  }
+  
+  .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-main);
+  }
+  
+  .setButton {
+    background-color: #d94a6a;
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .setButton:hover {
+    background-color: #c63959;
+  }
+  

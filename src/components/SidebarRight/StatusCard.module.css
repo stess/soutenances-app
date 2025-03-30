@@ -1,0 +1,42 @@
+/* src/components/SidebarRight/StatusCard.module.css */
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+  }
+  
+  .graph {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 6px;
+  }
+  
+  .bar {
+    width: 10px;
+    background-color: #d94a6a;
+    border-radius: 6px;
+    transition: height 0.3s ease;
+  }
+  
+  .trend {
+    font-size: 12px;
+    color: var(--text-light);
+    text-align: right;
+  }
+  

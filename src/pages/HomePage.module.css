@@ -1,0 +1,49 @@
+/* src/pages/HomePage.module.css */
+
+.homePage {
+  width: 100%;
+  height: 100vh;
+  background-color: #fef6f7;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+/* Grid for full content under Topbar */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 260px 1fr 280px;
+  height: calc(100vh - 70px); /* Topbar height */
+  overflow: hidden;
+}
+
+/* Sidebar & Main sections */
+.sidebarLeft {
+  background-color: #fef6f7;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-right: 1px solid #f2e6e8;
+  overflow-y: auto;
+}
+
+.mainContent {
+  padding: 20px 30px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebarRight {
+  background-color: #fef6f7;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-left: 1px solid #f2e6e8;
+  overflow-y: auto;
+}

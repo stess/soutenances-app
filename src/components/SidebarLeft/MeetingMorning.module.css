@@ -1,0 +1,56 @@
+/* src/components/SidebarLeft/MeetingMorning.module.css */
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #ff9f9f;
+    font-size: 18px;
+  }
+  
+  .title {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .details {
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--text-main);
+  }
+  
+  .secondary {
+    color: var(--text-light);
+    font-size: 13px;
+  }
+  
+  .linkBtn {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #d94a6a;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 5px;
+  }
+  
+  .linkBtn:hover {
+    text-decoration: underline;
+  }
+  
